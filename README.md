@@ -1,13 +1,13 @@
-#TP Noté
+# TP Noté du 28/04/2023
 
-## Sujets :
+## Subjects :
 
-- Sujet 01 : Calculatrice
+- Sujet 01 : Calculator
 - Sujet 02 : Binary Conversion
 
-## Author : 
+## Authors : 
 
 - Dimitri Fontenelle
-- Jean-Christophe De la roche
+- Jean-Christophe de la Roche Saint-André
 - Charly Jordan
 - Rémy Richard
