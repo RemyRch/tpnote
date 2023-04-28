@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Roboto+Mono:wght@300&display=swap');
+
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  height: 100vh; width: 100%;
+
+  background-image: url('/public/ressources/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+}
+
+section.calculator {
+  min-height: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 280px;
+  max-width: 300px;
+  margin-top: 100px;
+  
+}
+
+section.calculator .calculatorContainer {
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+section.calculator .calculatorHeader input[type=text] {
+
+  text-align: end;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  width: 100%;
+
+}
+section.calculator .calculatorBody {
+
+  
+
+}
+
+.buttonsContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.numberButtons {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  height:30px;
+  width: 30%;
+}
+
+section.calculator .calculatorActions {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.calculatorButton {
+  gap: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  height:30px;
+  width: 100%;
+
+}
+
+button {
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.buttonAction {
+  background-color: #e0e0e9;
+  font-size: 1rem;
+}
+
+.buttonAction:hover {
+  background-color: #b9b9b9;
+}

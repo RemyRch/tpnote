@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Roboto+Mono:wght@300&display=swap');
+
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  height: 100vh; width: 100%;
+
+  background-image: url('/public/ressources/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.container input[type="number"] {
+  padding: 5px 0px;
+  margin: 15px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px #eee solid;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+hr {
+  margin: 20px 20px;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+.copy {
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+.copied {
+  color: #4caf50;
+  font-weight: bold;
+}
